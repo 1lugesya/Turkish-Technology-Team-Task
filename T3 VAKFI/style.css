@@ -1,0 +1,101 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+* {
+    box-sizing: border-box; 
+}
+
+h1 {
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 96px;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 700;
+}
+.bg-b {background-color: #BDD7FE;}
+
+.bg-gr {background: #F5F5F5;}
+
+.bg-db {background: rgba(0, 82, 204, 0.2);}
+
+.c-size {
+    max-width: 1440px;
+    height: 1000px;
+    margin: 0 auto;
+    
+    
+}
+
+.box {
+    position: absolute;
+    z-index: -1;
+    width: 672px;
+    height: 400px;
+    background: rgba(0, 82, 204, 0.2);
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+}
+
+.nav {
+    margin-top: 80px;
+    color: #94A4C0;
+    justify-content: center;
+}
+
+.underline {
+    border-bottom: 10px solid #0052CC;
+    padding-bottom: 5px;
+}
+
+.blue-area-top {
+    background-color:#0052cc;
+    height: 66px;
+    width: 1230px;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.blue-area-top-second {
+    height: 500px;
+    width: 1200px;
+    background-color:#0052cc;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.blue-area-bottom {
+    background-color:#0052cc;
+    height: 66px;
+    width: 1230px;
+    margin: 0 auto;
+    border-radius: 0 0 10px 10px;
+}
+
+.second-page {
+    padding-top:100px;
+}
+
+input[type="checkbox"] {
+    border-radius: 99px;
+}
+
+.card-size {
+    width: 682px;
+    height: 280px;
+}
+
+.card-left {
+    background: #4181E0;
+}
+.card-right {
+background: #EAF1FD;
+}
+
+.nav-link {
+    color:#94A4C0;
+;
+}
